@@ -100,7 +100,7 @@ public class ItemDetailFragment extends Fragment {
 			}
 		};
 		
-        ChatServiceFactory.getInstance().setDelegateAPI(delegateAPI);
+        ChatServiceFactory.getInstance().setDelegateAPI(delegateAPI);        
         
 		return rootView;
 	}
