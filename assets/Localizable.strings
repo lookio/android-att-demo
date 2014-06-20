@@ -1,0 +1,40 @@
+{
+"EmailPlaceholderStr":"name@example.com",
+
+"ChatView.DefaultWelcomeMessageStr":"Send a message to our live service reps for immediate help.",
+"ChatView.AgentTypingNotificationStr":"Agent is typing...",
+"ChatView.PoweredByNotificationStr":"Powered by",
+"ChatView.EndSessionButtonStr":"End Session",
+"ChatView.LocalNameLabelStr":"Me",
+"ChatView.DismissalLabelStr":"Hide Chat",
+"ChatView.SendMsgButtonStr":"Send",
+"ChatView.SendMsgPlaceholderStr":"Send a message.",
+"ChatView.EndSessionQuestionAlertTitleStr":"End Support Session?",
+"ChatView.EndSessionQuestionAlertBodyStr":"Would you like to end this customer support session?",
+"ChatView.EndSessionQuestionAlertButtonYesStr":"End",
+"ChatView.EndSessionQuestionAlertButtonNoStr":"Don't End",
+
+"ChatAlertView.ChatErrorAlertTitleStr":"Live Chat Error",
+"ChatAlertView.ChatErrorAlertBodyStr":"Sorry, but the live chat service is currently unavailable. Please try again later.",
+"ChatAlertView.NetworkDisconnectAlertTitleStr":"Network problem",
+"ChatAlertView.NetworkDisconnectAlertBodyStr":"Couldn\'t continue live chat session.\nPlease check your connection and try again.",
+"ChatAlertView.ChatStartFailedAlertBodyStr":"Couldn\'t start live chat session.\nPlease try again.",
+"ChatAlertView.SessionEndedAlertTitleStr":"Support Session Ended",
+"ChatAlertView.SessionEndedAlertBodyStr":"Your support session has ended. If you still need help, try connecting to a live chat agent again.",
+"ChatAlertView.DismissAlertButtonStr":"Dismiss",
+
+"LeaveMessageView.ViewTitleStr":"No Agents Available",
+"LeaveMessageView.HeaderTextStr":"Please enter your email and a message for further help:",
+"LeaveMessageView.SendButtonStr":"Send",
+"LeaveMessageView.NoEmailAlertBodyStr":"Please enter an e-mail address.",
+"LeaveMessageView.FailedToSendStr":"Unable to leave message",
+"LeaveMessageView.SuccessAlertTitleStr":"Thank you!",
+"LeaveMessageView.SuccessAlertBodyStr":"Your message has been sent.",
+
+"AppNotification.NewMessageTitleStr":"New Message",
+"AppNotification.NewMessageBodyStr":"The support agent has sent a chat message to you.",
+"AppNotification.ChatEndTitleStr":"Support Session Ended",
+"AppNotification.ChatEndBodyStr":"The Support agent has ended the session.",
+"AppNotification.NetworkTitleStr":"Network problem",
+"AppNotification.NetworkBodyStr":"Couldn't continue live chat session.\nPlease check your connection and try again."
+}

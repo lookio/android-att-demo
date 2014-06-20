@@ -1,0 +1,145 @@
+{
+  "engagement": {
+    "font": {
+      "family": ""
+    },
+    "logo": {
+      "image": {
+        "url": ""
+      }
+    },
+    "chat_background": {
+      "background": {
+        "color": "#661A1A1A",
+        "alpha": "-1",
+        "gradient": {
+          "edge": "#661A1A1A",
+          "middle": "#1A1A1A1A"
+        }
+      }
+    },
+    "branding_bar": {
+      "background": {
+        "color": "#661A1A1A",
+        "alpha": "-1",
+        "gradient": {
+          "edge": "#661A1A1A",
+          "middle": "#1A1A1A1A"
+        }
+      },
+      "notifications": {
+        "font": {
+          "color": "#ffffff",
+          "size": "14"
+        }
+      }
+    },
+    "end_button": {
+      "background": {
+        "color": "red"
+      },
+      "font": {
+        "color": "#ffffff",
+        "size": "14"
+      }
+    },
+    "chat_bubbles": {
+      "corner_radius": "6",
+      "agent": {
+        "background": {
+          "color": "#CC000000",
+          "alpha": "-1"
+        },
+        "border": {
+          "width": "2",
+          "color": "gray"
+        },
+        "size": {
+          "width": "1.0"
+        },
+        "font": {
+          "color": "white",
+          "size": "16"
+        }
+      },
+      "visitor": {
+        "background": {
+          "color": "#CC000000",
+          "alpha": "-1"
+        },
+        "border": {
+          "width": "2",
+          "color": "gray"
+        },
+        "size": {
+          "width": "1.0"
+        },
+        "font": {
+          "color": "white",
+          "size": "16"
+        }
+      }
+    },
+    "system_message": {
+      "background": {
+        "color": "#CC000000",
+        "alpha": "-1"
+      },
+      "border": {
+        "width": "2",
+        "color": "gray"
+      },
+      "size": {
+        "width": "1"
+      },
+      "font": {
+        "color": "white",
+        "size": "16"
+      },
+      "bubble_alignment": "left"
+    },
+    "send_bar": {
+      "background": {
+        "color": "black"
+      },
+      "text_field": {
+        "font": {
+          "color": "white",
+          "size": "18"
+        },
+        "placeholder": {
+          "font": {
+            "color": "#ff808080"
+          }
+        }
+      },
+      "send_button": {
+        "background": {
+          "color": "gray"
+        },
+        "font": {
+          "color": "white",
+          "size": "18"
+        }
+      }
+    },
+    "hide_bar": {
+      "background": {
+        "color": "#77000000"
+      },
+      "label": {
+        "font": {
+          "color": "gray",
+          "size": "14"
+        }
+      }
+    },
+    "visit": {
+      "control_button": {
+        "font": {
+          "size": "20"
+        }
+      }
+    }
+  }
+}

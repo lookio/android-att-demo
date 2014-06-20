@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.look.attdemoapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    
+    <application
+		android:name="io.look.attdemoapp.MyApplication"
+        
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="io.look.attdemoapp.ItemListActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="io.look.attdemoapp.ItemDetailActivity"
+            android:label="@string/title_item_detail"
+            android:parentActivityName="io.look.attdemoapp.ItemListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="io.look.attdemoapp.ItemListActivity" />
+        </activity>
+        <activity android:name="com.liveperson.mobile.android.ui.chat.ChatMainActivity"
+    		android:label="@string/title_activity_lpmobile"
+    		android:theme="@style/Theme.Transparent">
+		</activity>
+		<activity android:name="com.liveperson.mobile.android.ui.ChatAlertActivity"
+    		android:label="@string/title_activity_lpmobile"
+    		android:launchMode="singleInstance"
+    		android:theme="@style/Theme.Transparent">
+		</activity>
+		<service android:enabled="true" android:name="com.liveperson.mobile.android.service.visit.VisitService" />	
+    </application>
+
+</manifest>
