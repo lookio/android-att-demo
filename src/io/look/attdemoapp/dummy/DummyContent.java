@@ -24,15 +24,15 @@ public class DummyContent {
 	public static Map<String, DummyItem> ITEM_MAP = new HashMap<String, DummyItem>();
 
 	static {
-		//addItem(new DummyItem("1", "1771134", "wireless-mobile-android-english"));
-		//addItem(new DummyItem("2", "1771134", "service_olam-mobile-web-english"));
-		//addItem(new DummyItem("3", "10188673", "dslcare9-mobile-android-english"));
-		//addItem(new DummyItem("4", "10188673", "dslcare13-mobile-android-english"));
+		addItem(new DummyItem("1", "1771134", "wireless-mobile-android-english"));
+		addItem(new DummyItem("2", "1771134", "service_olam-mobile-web-english"));
+		addItem(new DummyItem("3", "10188673", "dslcare9-mobile-android-english"));
+		addItem(new DummyItem("4", "10188673", "dslcare13-mobile-android-english"));
 		
-		addItem(new DummyItem("1", "P17453170", "mobile"));
-		addItem(new DummyItem("2", "P17453170", "sales"));
-		addItem(new DummyItem("3", "61010431", "mobile"));
-		addItem(new DummyItem("4", "61010431", "otherskill"));
+		//addItem(new DummyItem("1", "P17453170", "mobile"));
+		//addItem(new DummyItem("2", "P17453170", "sales"));
+		//addItem(new DummyItem("3", "61010431", "mobile"));
+		//addItem(new DummyItem("4", "61010431", "otherskill"));
 	}
 
 	private static void addItem(DummyItem item) {

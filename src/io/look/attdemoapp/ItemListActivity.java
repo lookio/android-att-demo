@@ -36,8 +36,8 @@ public class ItemListActivity extends FragmentActivity implements
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
         
-		//ServicesSharedPreferences.savePackageName(getApplicationContext(), "com.liveperson.mobile.ecosmart-88310755");
-		ServicesSharedPreferences.savePackageName(getApplicationContext(), "com.liveperson.mobile.ecosmart-P17453170");
+		ServicesSharedPreferences.savePackageName(getApplicationContext(), "com.liveperson.mobile.ecosmart-88310755");
+		//ServicesSharedPreferences.savePackageName(getApplicationContext(), "com.liveperson.mobile.ecosmart-P17453170");
         ServicesSharedPreferences.saveIsProductionEnv(getApplicationContext(), false);
         
         LivePerson.init(this);        
@@ -65,15 +65,15 @@ public class ItemListActivity extends FragmentActivity implements
 	{
 		super.onStart();
 		
-		//LivePerson.setCustomVariable("button-1771134-wireless-mobile-android-english", "-1");
-		//LivePerson.setCustomVariable("button-1771134-service_olam-mobile-web-english", "-1");
-		//LivePerson.setCustomVariable("button-61010431-dslcare9-mobile-android-english", "-1");		
-		//LivePerson.setCustomVariable("button-61010431-dslcare13-mobile-android-english", "-1");
+		LivePerson.setCustomVariable("button-1771134-wireless-mobile-android-english", "-1");
+		LivePerson.setCustomVariable("button-1771134-service_olam-mobile-web-english", "-1");
+		LivePerson.setCustomVariable("button-61010431-dslcare9-mobile-android-english", "-1");		
+		LivePerson.setCustomVariable("button-61010431-dslcare13-mobile-android-english", "-1");
 		
-		LivePerson.setCustomVariable("button-P17453170-mobile", "-1");
-		LivePerson.setCustomVariable("button-P17453170-sales", "-1");
-		LivePerson.setCustomVariable("button-61010431-mobile", "-1");		
-		LivePerson.setCustomVariable("button-61010431-otherskill", "-1");
+		//LivePerson.setCustomVariable("button-P17453170-mobile", "-1");
+		//LivePerson.setCustomVariable("button-P17453170-sales", "-1");
+		//LivePerson.setCustomVariable("button-61010431-mobile", "-1");		
+		//LivePerson.setCustomVariable("button-61010431-otherskill", "-1");
 	}
 	
 	/**
