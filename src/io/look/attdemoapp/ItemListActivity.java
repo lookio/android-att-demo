@@ -38,7 +38,7 @@ public class ItemListActivity extends FragmentActivity implements
         
 		ServicesSharedPreferences.savePackageName(getApplicationContext(), "com.liveperson.mobile.ecosmart-88310755");
 		//ServicesSharedPreferences.savePackageName(getApplicationContext(), "com.liveperson.mobile.ecosmart-P17453170");
-        ServicesSharedPreferences.saveIsProductionEnv(getApplicationContext(), false);
+        ServicesSharedPreferences.saveIsProductionEnv(getApplicationContext(), true);
         
         LivePerson.init(this);        
 		
